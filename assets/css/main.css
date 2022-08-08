@@ -100,7 +100,8 @@ input, select, textarea {
 
 	body {
 		background-color: #2e3141;
-		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+		/* background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg"); */
+		background-image:url("../../images/AdobeStock_440286523.jpeg");
 		background-size: auto,
  cover;
 		background-attachment: fixed,
@@ -270,12 +271,17 @@ input, select, textarea {
 		}
 
 		h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
-			padding-bottom: 1em;
+			padding-bottom: 0.5em;
 			border-bottom: solid 2px rgba(255, 255, 255, 0.125);
+			font-size: 1.8em;
+			/* color: rgb(2, 18, 54); */
+		}
+		h2 {
+			font-size: 1.8em;
 		}
 
 	h2 {
-		font-size: 1.2em;
+		font-size: 1.4em;
 	}
 
 	h3 {
@@ -3695,7 +3701,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style2 {
-			background-color: #353849;
+			background-color: #353849; 
 		}
 
 			.wrapper.style2:before, .wrapper.style2:after {
@@ -3821,6 +3827,7 @@ input, select, textarea {
 			.wrapper.spotlight .content {
 				width: 100%;
 				-ms-flex: 2;
+				
 			}
 
 			.wrapper.spotlight:nth-child(2n - 1) .inner {
@@ -3828,7 +3835,7 @@ input, select, textarea {
 				-webkit-flex-direction: row-reverse;
 				-ms-flex-direction: row-reverse;
 				flex-direction: row-reverse;
-				text-align: right;
+				text-align: left;
 			}
 
 			.wrapper.spotlight:nth-child(2n - 1) .image {
