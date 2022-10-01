@@ -276,17 +276,30 @@ input, select, textarea {
 			font-weight: 200;
 		}
 
-		h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
+		h1.major, h2.major,  h4.major, h5.major, h6.major {
 			padding-bottom: 0.5em;
 			border-bottom: solid 2px rgba(255, 255, 255, 0.125);
 			font-size: 1.8em;
 			/* color: rgb(2, 18, 54); */
+		}
+		h3.major
+		{
+			padding-bottom: 0.5em;
+			border-bottom: solid 2px rgba(255, 255, 255, 0.125);
+			font-size: 1.2em;
+			color: rgb(186, 189, 196);
 		}
 		h2 {
 			font-size: 1.8em;
 		}
 
 	h2 {
+		font-size: 1.4em;
+	}
+	h2.link {
+		color: #ffde03;
+		
+		
 		font-size: 1.4em;
 	}
 
@@ -2422,6 +2435,17 @@ input, select, textarea {
 		}
 
 /* Image */
+.image2 img
+{
+	border-radius: 5px;
+	border: 0;
+	
+	position: relative;
+	align-self: center;
+	width: 300pt;
+	height: 300pt;
+
+}
 
 	.image {
 		border-radius: 5px;
