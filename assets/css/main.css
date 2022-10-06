@@ -3044,11 +3044,15 @@ input, select, textarea {
 			background-color: #353849;
 			border-radius: 5px;
 			margin: 1.5em 3em 1.5em 0;
-			width: calc(50% - 1.5em);
+			width: calc(30% - 1.5em);
+		}
+		.features article h3 {
+			font-size: medium;
 		}
 
+
 			.features article:nth-child(2n) {
-				margin-right: 0;
+				margin-right: 0.1;
 			}
 
 			.features article .image {
@@ -3064,6 +3068,7 @@ input, select, textarea {
 				.features article .image img {
 					border-radius: 5px 5px 0 0;
 					width: 100%;
+					/* height: 50%; */
 				}
 
 		@media screen and (max-width: 980px) {
