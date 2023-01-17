@@ -251,19 +251,26 @@
 											<div style="padding:0px 50px 50px 50px;">
 											
 												<ul style="color:rgb(191, 210, 233) ;">
-													<li>Implemented a Deep learning network which explored the use of neural networks as steganographic functions for speech data.</li>
-														<li> The objective was to conceal multiple messages in a single
-														carrier using multiple decoders or a single conditional decoder such that it is unnoticeable by human listeners and that the decoded
-														messages are highly intelligible.</li>
+													<li>Combined the current State of the art multi-object tracking algorithm -<b> Deep SORT </b> with SuperGlue algorithm to enhance the object tracking in presence of Occlusion.</li>
+														<li> Our implementation is robust to handle occlusion cases effectively and improves object tracking, matching and re-association of tracks by 2% copared to the baseline. </li>
 													
-														
+													<li>The algorithm uses YOLOv7 for object detection. The object estimation and object matching uses three cost metrics.
+														<ul>
+														<li>SuperGlue Cost Metric</li>
+														<li>Cosine Similarity Metric </li>
+													<li> IOU cost metric using the kalman predicted bounding boxes</li> 
+														</ul>
+													</li>
+													<li>Using the cost matrix, the matched tracks are succesfully re-assigned previous identity and unmatched tracks are assigned new ID's.</li>
+													<li>This pipeline was extended to successfully track apples real time in an orchard - count and determine their location for a robot to perfectly
+														pick them. </li>
 															
-													
-														
 													</ul>
 													<article>
-														<!-- <a class="image2"><img src="images/SpeechSteg-1.png" alt="" /></a>
-														<a class="image2"><img src="images/SpeechSteg-2.png" alt="" /></a> -->
+														
+														<a class="image4"><img src="images/Deepsort-2.png" alt="" /></a>
+														<a class="image3"><img src="images/Apple1.png" alt="" /></a>
+														<a class="image3"><img src="images/Apple2.png" alt="" /></a>
 														
 														
 														

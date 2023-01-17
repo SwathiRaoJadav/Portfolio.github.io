@@ -2446,6 +2446,19 @@ input, select, textarea {
 	height: 300pt;
 
 }
+
+.image4 img
+{
+	border-radius: 5px;
+	border: 0;
+	
+	position: relative;
+	align-self: center;
+	width: 700pt;
+	height: 300pt;
+
+}
+
 .image3 img
 {
 	border-radius: 5px;
