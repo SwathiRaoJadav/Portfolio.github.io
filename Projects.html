@@ -96,6 +96,91 @@
 														
 													</article>	
 												</div>
+											<h3 class="link">SuperVLOAM - Super Visual LiDAR Odometry and mapping</h3>
+											<div style="padding:0px 50px 50px 50px;">
+											
+												<ul style="color:rgb(191, 210, 233) ;">
+													<li>State of the art technique for localizing and mapping an environment in real time using both camera and LIDAR sensors by fusing visual features and LIDAR data to estimate robots movements with higher precision.
+													</li>
+													<li>Implemented a robust real-time ROS-based framework for accurate trajectory estimation, 3D Mapping, and Localization by
+														fusing stereo RGB image and LiDAR data using ICP in a non-linear optimization framework to achieve an ATE of 1.773m</li>
+														<li>VLOAM used feature extractors such as ShiTomasi, ORB, BRIEF, FAST etc. The descriptor matching was done using Brute-force, L2-Norm and FLANN based matching. </li>
+														<li>Augmented the feature extraction and matching algorithm with Super-Point descriptor and SuperGlue matching algorithm. </li>
+														
+															
+													
+														
+													</ul>
+													<article>
+														<a class="image3"><img src="images/vloam1.png" alt="" /></a>
+														<a class="image3"><img src="images/vloam2.png" alt="" /></a>
+														<a class="image3"><img src="images/svloam top view.png" alt="" /></a>
+														
+														
+														
+														
+														
+													</article>	
+												</div>
+												<h3 class="link">Perception in Snow-Covered Environment</h3>
+											<div style="padding:0px 50px 50px 50px;">
+											
+												<ul style="color:rgb(191, 210, 233) ;">
+													<li>Modeled a comprehensive perception module for Progressive LiDAR adaptation for road detection in adverse Snow-Covered
+														conditions through Sensor Fusion of Camera and LiDAR data on KITTI and Canadian Adverse Driving Conditions (CADC) dataset.</li>
+														<li>This approach adapts LiDAR information into visual image-based road detection and improves detection performance.</li>
+													
+														
+															
+													
+														
+													</ul>
+													<article>
+														<a class="image3"><img src="images/PerceptionInSnow.png" alt="" /></a>
+														<a class="image3"><img src="images/snow1.gif" alt="" /></a>
+														<a class="image3"><img src="images/snow2.gif" alt="" /></a>
+														<a class="image3"><img src="images/snow3.gif" alt="" /></a>
+														<a class="image3"><img src="images/snow4.gif" alt="" /></a>
+														
+														
+														
+														
+														
+													</article>	
+												</div>
+												
+												<h3 class="link">Super Deep SORT - Simple Online Real-time tracking</h3>
+											<div style="padding:0px 50px 50px 50px;">
+											
+												<ul style="color:rgb(191, 210, 233) ;">
+													<li>Combined the current State of the art multi-object tracking algorithm -<b> Deep SORT </b> with SuperGlue algorithm to enhance the object tracking in presence of Occlusion.</li>
+														<li> Our implementation is robust to handle occlusion cases effectively and improves object tracking, matching and re-association of tracks by 2% copared to the baseline. </li>
+													
+													<li>The algorithm uses YOLOv7 for object detection. The object estimation and object matching uses three cost metrics.
+														<ul>
+														<li>SuperGlue Cost Metric</li>
+														<li>Cosine Similarity Metric </li>
+													<li> IOU cost metric using the kalman predicted bounding boxes</li> 
+														</ul>
+													</li>
+													<li>Using the cost matrix, the matched tracks are succesfully re-assigned previous identity and unmatched tracks are assigned new ID's.</li>
+													<li>This pipeline was extended to successfully track apples real time in an orchard - count and determine their location for a robot to perfectly
+														pick them. </li>
+															
+													</ul>
+													<article>
+														
+														<a class="image4"><img src="images/Deepsort-2.png" alt="" /></a>
+														<a class="image3"><img src="images/Apple1.png" alt="" /></a>
+														<a class="image3"><img src="images/Apple2.png" alt="" /></a>
+														
+														
+														
+														
+														
+													</article>	
+												</div>
+
 												<h3 class="link">HEXA-Human Demo Augmented Explorer and Achiever</h3>
 											<div style="padding:0px 50px 50px 50px;">
 											
@@ -124,37 +209,6 @@
 														<a class="image2"><img src="images/hexa3.jpeg" alt="" /></a>
 														<a class="image2"><img src="images/hexa4.jpeg" alt="" /></a>
 														
-														
-														
-														
-														
-														
-													</article>	
-												</div>
-												<h3 class="link">Super Deep SORT - Simple Online Real-time tracking</h3>
-											<div style="padding:0px 50px 50px 50px;">
-											
-												<ul style="color:rgb(191, 210, 233) ;">
-													<li>Combined the current State of the art multi-object tracking algorithm -<b> Deep SORT </b> with SuperGlue algorithm to enhance the object tracking in presence of Occlusion.</li>
-														<li> Our implementation is robust to handle occlusion cases effectively and improves object tracking, matching and re-association of tracks by 2% copared to the baseline. </li>
-													
-													<li>The algorithm uses YOLOv7 for object detection. The object estimation and object matching uses three cost metrics.
-														<ul>
-														<li>SuperGlue Cost Metric</li>
-														<li>Cosine Similarity Metric </li>
-													<li> IOU cost metric using the kalman predicted bounding boxes</li> 
-														</ul>
-													</li>
-													<li>Using the cost matrix, the matched tracks are succesfully re-assigned previous identity and unmatched tracks are assigned new ID's.</li>
-													<li>This pipeline was extended to successfully track apples real time in an orchard - count and determine their location for a robot to perfectly
-														pick them. </li>
-															
-													</ul>
-													<article>
-														
-														<a class="image4"><img src="images/Deepsort-2.png" alt="" /></a>
-														<a class="image3"><img src="images/Apple1.png" alt="" /></a>
-														<a class="image3"><img src="images/Apple2.png" alt="" /></a>
 														
 														
 														
