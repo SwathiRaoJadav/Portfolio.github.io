@@ -105,7 +105,7 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #2e3141;
+		/* background-color: #2e3141; */
 		/* background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg"); */
 		background-image:url("../../images/AdobeStock_440286523.jpeg");
 		background-size: auto,
@@ -132,8 +132,8 @@ input, select, textarea {
 	body, input, select, textarea {
 		color: #ffffff;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
-		font-size: 16.5pt;
-		font-weight: 300;
+		font-size: 13.5pt;
+		font-weight: 400;
 		line-height: 1.65;
 	}
 
@@ -188,8 +188,8 @@ input, select, textarea {
 	}
 
 		a:hover {
-			border-bottom-color: transparent;
-			color: #ffffff !important;
+			border-bottom-color: #FF0000;
+			color: #FF0000 !important;
 		}
 
 		a.special:not(.button) {
@@ -2464,9 +2464,9 @@ input, select, textarea {
 	border-radius: 5px;
 	border: 0;
 	
-	position: relative;
+	position: center;
 	align-self: center;
-	width: 500;
+	width: 600pt;
 	height: 300pt;
 
 }
