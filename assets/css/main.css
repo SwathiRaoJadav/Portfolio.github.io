@@ -2471,6 +2471,17 @@ input, select, textarea {
 
 }
 
+.image4 img
+{
+	border-radius: 5px;
+	border: 0;
+	
+	position: center;
+	align-self: center;
+	width: 300pt;
+	height: 300pt;
+}
+
 	.image {
 		border-radius: 5px;
 		border: 0;
